@@ -1,7 +1,6 @@
 ## <B> Twitter Bot and 3-legged Authenticator Read-Me </B>
 ### AUTHOR: Michael Blank
-#### Question 2:
-This three legged authorization protocal works by having an intermidate body between the user and the serivice, otherwise known as the client. It's the most secure flow because you can authenticate the client to redeem the authorization grant, and tokens are never passed through a user (where most attacks happen). The app redirects the user to authenticate and after consent the code is generated, the client captures the authorization code from the url and posts it to endpoint, then server recieves this and returns the access token. Thus, there are three legs.
+
 
 ## <B>START OF INSTRUCTIONS: </B>
 The ***hw1_authenticator.py*** file contains all authenticator portions of the assignment (part 2). It also builds the corpus in the ***corpus.txt*** file and pulls the <B> @FreedoniaNews </B> into the ***freedoniatweets.txt*** file. It does this by pulling the tweets with tweepy and putting them in txt files.
@@ -55,7 +54,5 @@ Otherwise, just run ***hw1_authenticator.py*** for authentication and ***hw1_api
     {'cap': {'english': 0.08590409243653727, 'universal': 0.006431292840898396}, 'categories': {'content': 0.946174528632784, 'friend': 0.9136223598156034, 'network': 0.6495621487664512, 'sentiment': 0.8465067076913749, 'temporal': 0.845608000205838, 'user': 0.5957894732961813}, 'display_scores': {'content': 4.7, 'english': 2.4, 'friend': 4.6, 'network': 3.2, 'sentiment': 4.2, 'temporal': 4.2, 'universal': 0.6, 'user': 3.0}, 'scores': {'english': 0.4848645828256039, 'universal': 0.1285158337598371}, 'user': {'id_str': '1222181578144735232', 'screen_name': 'Michaelblank123'}}
 
 My overall score, as an english user, was 2.4/5.0. I believe this intermidate score is a result of a few aspects of my account. The content of my tweets was seen to be extremely botlike, which could be a result of my 35 character tweet restriction that often cut the tweets short in the middle and the excessive number of tags that GPT produced, often unrelated to the parent tweet. Furthermore, it turns out being friends with other bot accounts severely affected my score (4.6). However, I believe my score was lowered by the fact that my account had real credentials (3.0) and my tweets still included the same subject as the parent tweet and sometimes provided realistic responses.
-
-The Botometer is a powerful tool. I believe that it should be used by everyone using the number of responses or likes on their pages as a way to rally investors or other people. This is especially important in campaigns where candidates use their social media numbers to obtain funding. I believe all data reported to the news or to supporters of campaigns should have to be run through Botometer to provide the true number of users that are supporting the campaign. So that campaigns do not have to constantly be running Botometer, the campaign can run the Botometer on their social media data every month or so and post the results on their pages.
 
 
