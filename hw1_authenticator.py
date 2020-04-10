@@ -15,8 +15,8 @@ import os
 import requests
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-consumer_key = 'gShAQlBULEgtI4TXbfZ9Jm67z'
-consumer_secret = 'q1RaFMHXVhdARf7mWmvTJMrulUYQei6XPe1HTygX6ED4bQxpER'
+consumer_key = 'XXXXXXXXXX'
+consumer_secret = 'XXXXXXXXXX'
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
