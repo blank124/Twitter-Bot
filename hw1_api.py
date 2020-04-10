@@ -17,10 +17,10 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import botometer
 import re
 
-consumer_key = 'gShAQlBULEgtI4TXbfZ9Jm67z'
-consumer_secret = 'q1RaFMHXVhdARf7mWmvTJMrulUYQei6XPe1HTygX6ED4bQxpER'
-access_token = '1222181578144735232-LpfSW1TE087zQ1PG15ZdpTS7PHZ8CO'
-access_secret = 'wAPpFATXBwjkkj4zsO6BXx1cLRdaC3ro7uKlg6Hgt665e'
+consumer_key = 'XXXXXXXXXX'
+consumer_secret = 'XXXXXXXXXX'
+access_token = 'XXXXXXXXXX'
+access_secret = 'XXXXXXXXXX'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
